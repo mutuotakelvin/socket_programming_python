@@ -1,0 +1,1 @@
+--getsockname() - used on a socket object to find the current IP address and port that a socket is bound.
