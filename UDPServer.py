@@ -12,3 +12,5 @@ print('Listening at {}'.format(s.getsockname()))
 
 while True:
     data, clientAddress = s.recvfrom(MAX_SIZE_BYTES) # Receive at most 65535 bytes at once
+    message = data.decode('ascii')
+    upperCaseMessage = message.upper()
